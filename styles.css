@@ -13,7 +13,22 @@ body {
     padding: 0;
 
     min-height: 100vh;
+
+    transition: background-color 0.3s, color 0.3s;
 }
+ 
+
+body.dark-mode { 
+
+    background-color: #333333; 
+
+    color:white; 
+
+} 
+
+body.dark-mode nav { background-color: #222222; } 
+
+#theme-toggle { padding: 8px 16px; cursor: pointer; margin: 10px; } 
 
 header {
 
